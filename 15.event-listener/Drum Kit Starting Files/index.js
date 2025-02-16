@@ -334,9 +334,6 @@ for (let i = 0; i < j; i++) {
   });
 }
 
-document.addEventListener("touchstart", function () {
-  documentClick = true;
-});
 document.addEventListener("keydown", function (event) {
   console.log(event);
   console.log(event.key);
